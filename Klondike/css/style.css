@@ -1,0 +1,98 @@
+html , body {
+    margin: 0;
+    background-color: #222222; /* 最後再改成和root同色 */
+    overflow: hidden;
+}
+
+#root {
+    text-align: center;
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 50px 115px 0 115px;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+    background-color: #E2E2E2;
+    color: #222222;
+}
+
+.top-side {
+    width: 100%;
+    border: 0.1px solid red;
+    /* float: left; */
+    /* display:inline; */
+}
+
+.area {
+    width: 425px;
+    height: 145px;
+    margin: 0 0 30px 0;
+    padding: 0; 
+    /* border: 0.1px solid orange; */
+}
+
+
+/* left temp area */
+.left-area {
+    float: left;
+}
+
+    /* placed poker area, both left and right */
+.placed-area {
+    width: 91px;
+    height: 141px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #FCFCFC;
+    opacity: 0.6;
+}
+
+.temp-margin {
+    margin-right: 15px;
+}
+
+
+/* king icon */
+.king-stamp {
+    float: left;
+}
+
+#king {
+    width: 60px;
+    margin: 30px 30px 0 30px;
+}
+
+#free-cell-icon {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* rigth final area */
+.right-area {
+    float: right;
+}
+
+.final-area {
+    background-color: #FCFCFC;
+    opacity: 0.6;
+}
+
+.final-margin {
+    margin-left: 15px;
+}
+    /* poker */
+.poker-suits {
+    width: 35px;
+    margin-top: 55px;
+}
+
+
+
+
+
+
+
+
