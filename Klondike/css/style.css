@@ -1,7 +1,10 @@
 html , body {
     margin: 0;
     background-color: #222222; /* 最後再改成和root同色 */
-    overflow: hidden;
+    /* overflow: hidden; */
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #root {
@@ -19,7 +22,7 @@ html , body {
 
 .top-side {
     width: 100%;
-    border: 0.1px solid red;
+    /* border: 0.1px solid red; */
     /* float: left; */
     /* display:inline; */
 }
@@ -89,8 +92,98 @@ html , body {
     margin-top: 55px;
 }
 
+    /* poker-area */
+#medsection {
+    width: 100%;
+    height: 493px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
 
 
+/* med, for cards */
+.medsection .deck {
+    margin-top: 10px;
+    width: 100px;
+    height: 150px;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.medsection .deck > .cardbox0 {
+    top: 0;
+}
+
+.cardbox0 {
+    position: absolute;
+    top: 25px;
+    height: 145px;
+    width: 95px;
+    transition: all 0.1s;
+    background-size: contain; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* bottom, footer */
+.bottom-side {
+    height: 80px;
+    width: 1000px;
+    /* margin-top: 668px; */
+    left: 100px;
+    border-top-style:solid;
+    border-top-color: gray;
+    border-top-width: 2px;
+    position: absolute;
+}
+
+.info-icon {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #222222;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+#info-spade-icon {
+    margin-top: 10px;
+}
+
+.time-clock {
+    margin-top: 31px;
+    margin-left: 10px;
+}
+
+.score-block {
+    margin-top: 31px;
+    margin-left: 20px;
+}
+
+    /* btn */
+.game-btn {
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 12px;
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 50px;
+    background-color: #222222;
+    color: #FFFFFF;
+    margin: 20px 0 0 15px;
+    padding: 0;
+}
 
 
 

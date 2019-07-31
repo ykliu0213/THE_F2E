@@ -8,7 +8,7 @@
     <body>
         <div id="root">
             <div class="top-side">
-                <div class="area left-area">
+                <div class="area left-area" id="leftCardDeck">
                     <div class="placed-area left-area temp-margin"></div>
                     <div class="placed-area left-area temp-margin"></div>
                     <div class="placed-area left-area temp-margin"></div>
@@ -18,15 +18,25 @@
                     <img id="king" src="./static/king_happy.png" alt="king-happy">
                     <div id="free-cell-icon">FREE CELL</div>
                 </div>
-                <div class="area right-area">
+                <div class="area right-area" id="rightCardDeck">
                     <div class="placed-area final-area right-area final-margin"><img class="poker-suits" src="./static/C.png" alt="Club"></div>
                     <div class="placed-area final-area right-area final-margin"><img class="poker-suits" src="./static/D.png" alt="Dimond"></div>
                     <div class="placed-area final-area right-area final-margin"><img class="poker-suits" src="./static/H.png" alt="Heart"></div>
                     <div class="placed-area final-area right-area"><img class="poker-suits" src="./static/S.png" alt="Spade"></div>
                 </div>
             </div>
-            <div class="buttom-side">
-
+            <div id="medsection" class="medsection"></div>
+            <div class="bottom-side">
+                <div class="info-icon left-area">
+                    <img id="info-spade-icon" src="./static/info.svg" alt="">
+                </div>
+                <div class="time-clock left-area">TIME: <span id='time-text'>00:00</span></div>
+                <!-- 應該不需要Score？ -->
+                <div class="score-block left-area">SCORE: <span id='score-text'>0</span></div>
+                <button class="game-btn right-area" onclick="">UNDO</button>
+                <button class="game-btn right-area" onclick="">HINT</button>
+                <button class="game-btn right-area" onclick="">RESTART</button>
+                <button class="game-btn right-area" onclick="">NEW GAME</button>
             </div>
         </div>
         <script src="./js/script.js"></script>
