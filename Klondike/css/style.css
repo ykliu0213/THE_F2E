@@ -117,7 +117,7 @@ html , body {
 }
 
 .cardbox0 {
-    position: absolute;
+    position: relative;
     top: 25px;
     height: 145px;
     width: 95px;
@@ -126,11 +126,49 @@ html , body {
 }
 
 
+/* dragging */
+.dragging {
+    opacity: 0.5;
+}
 
+.hover:hover {
+    border: 2px solid #FFB53E;
+    border-radius: 5px;
+    left: -2px;
+    /* filter: drop-shadow 0px 0px 10px rgba(255, 255, 255, 0.5);
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
+    -moz-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5)); */
+}
 
+.set-full-opacity {
+    opacity: 1;
+}
 
+.on-left {
+    top: -2px;
+    left: -2px;
+}
 
+.on-right {
+    top: -96px;
+    left: -2px;
+}
 
+.on-right-bigger-two {
+    top: 0;
+}
+
+/* enter effect */
+.enterEffect {
+    filter: drop-shadow 0px 0px 10px rgba(255, 255, 255, 0.5);
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
+    -moz-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
+}
+
+.deckEnterEffect {
+    height: 141px !important;
+    box-shadow: 1px 1px 10px 5px rgba(255, 255, 255, 0.5) inset;
+}
 
 
 
